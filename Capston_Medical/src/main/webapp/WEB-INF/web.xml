@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegController</servlet-name>
+  	<display-name>RegController</display-name>
+  	<description></description>
+  	<servlet-class>com.krishna.controller.RegController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.krishna.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewAllMedController</servlet-name>
+  	<display-name>ViewAllMedController</display-name>
+  	<description></description>
+  	<servlet-class>com.krishna.controller.ViewAllMedController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AntibioticsController</servlet-name>
+  	<display-name>AntibioticsController</display-name>
+  	<description></description>
+  	<servlet-class>com.krishna.controller.AntibioticsController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PainKillerController</servlet-name>
+  	<display-name>PainKillerController</display-name>
+  	<description></description>
+  	<servlet-class>com.krishna.controller.PainKillerController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AntacidController</servlet-name>
+  	<display-name>AntacidController</display-name>
+  	<description></description>
+  	<servlet-class>com.krishna.controller.AntacidController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AuxilaryController</servlet-name>
+  	<display-name>AuxilaryController</display-name>
+  	<description></description>
+  	<servlet-class>com.krishna.controller.AuxilaryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegController</servlet-name>
+  	<url-pattern>/RegController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewAllMedController</servlet-name>
+  	<url-pattern>/ViewAllMedController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AntibioticsController</servlet-name>
+  	<url-pattern>/AntibioticsController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PainKillerController</servlet-name>
+  	<url-pattern>/PainKillerController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AntacidController</servlet-name>
+  	<url-pattern>/AntacidController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AuxilaryController</servlet-name>
+  	<url-pattern>/AuxilaryController</url-pattern>
+  </servlet-mapping>
+</web-app>
